@@ -1,7 +1,7 @@
 package cis232.example;
 
 public class Employee {
-	protected String name;
+	private String name;
 	private String id;
 	private double rate;
 	
