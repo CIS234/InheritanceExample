@@ -1,9 +1,9 @@
 package cis232.example;
 
 public class Employee {
-	protected String name;
-	private String id;
-	private double rate;
+	String name;
+	public String id;
+	protected double rate;
 	
 	public String getName() {
 		return name;

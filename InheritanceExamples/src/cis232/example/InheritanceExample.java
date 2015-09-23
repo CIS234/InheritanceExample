@@ -14,11 +14,14 @@ public class InheritanceExample {
 		
 		Employee e = new Employee();
 		e.setName("Jake");
+		e.id = "Employee ID #ABC";
+		e.name = "Evil jake";
+		e.rate = 10;
 		
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(sm);
-		System.out.println(e);
+		System.out.println(e.id);
 	}
 
 }
